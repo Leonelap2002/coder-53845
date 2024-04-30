@@ -1,0 +1,37 @@
+footer {
+    background-color: $color-principal;
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+        ul {
+            list-style: none;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: $color-secundario;
+                }
+            }
+        }
+    }
+}
+
+.redes {
+    display: flex;
+
+    h3 {
+        color: $color-secundario;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+

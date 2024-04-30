@@ -1,0 +1,608 @@
+@media screen and (max-width:668px) {
+    .ubicacion div h2 {
+        font-size: 20px;
+    }
+
+    .ubicacion p {
+        font-size: 10px;
+    }
+
+    .ubicacion iframe {
+        width: 250px;
+    }
+
+    .ubicacion div {
+        padding: 10px;
+    }
+
+    .bienvenidos h1 {
+        font-size: 70px;
+        width: 400px;
+        margin: 20px;
+    }
+
+    .bienvenidos p {
+        width: 500px;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .tusunas h2 {
+        font-size: 40px;
+
+    }
+}
+
+@media screen and (max-width:517px) {
+    .bienvenidos h1 {
+        font-size: 50px;
+        width: 300px;
+        margin: 20px;
+    }
+
+    .bienvenidos p {
+        width: 400px;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .tusunas h2 {
+        font-size: 30px;
+    }
+
+    .tusunas p {
+        font-size: 10px;
+    }
+
+    .tusunas a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .ubicacion iframe {
+        width: 150px;
+    }
+
+    .redes h3 {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:407px) {
+    .bienvenidos h1 {
+        font-size: 40px;
+        width: 230px;
+        margin: 20px;
+    }
+
+    .bienvenidos p {
+        width: 300px;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .tusunas h2 {
+        font-size: 20px;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicios {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 60px;
+    }
+}
+
+/* SHOP */
+@media screen and (max-width:727px) {
+    .bannershop h1 {
+        font-size: 70px;
+        width: 170px;
+    }
+
+    .bannershop p {
+        width: 500px;
+
+    }
+
+    .tarjetas img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 30px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 10px;
+    }
+
+    .tarjetas-texto a {
+        text-decoration: none;
+        background-color: #EB4B98;
+        color: $color-secundario;
+        padding: 10px;
+    }
+
+    .esperando {
+        height: 300px;
+
+    }
+
+    .esperando div {
+        margin-left: 80px;
+    }
+
+    .esperando div h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .esperando div p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .esperando div a {
+        padding: 10px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .esperando img {
+        width: 400px;
+        height: 400px;
+        bottom: 70px;
+    }
+}
+
+@media screen and (max-width:571px) {
+    .bannershop h1 {
+        font-size: 50px;
+        width: 120px;
+    }
+
+    .bannershop p {
+        width: 400px;
+
+    }
+
+    .tarjetas img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        margin-right: 10px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 20px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 8px;
+    }
+
+    .tarjetas-texto a {
+        padding: 10px;
+    }
+
+    .esperando {
+        height: 250px;
+    }
+
+    .esperando div {
+        margin-left: 80px;
+    }
+
+    .esperando div h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .esperando div p {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .esperando div a {
+        padding: 10px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .esperando img {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width:489px) {
+    .tarjetas img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        margin-right: 10px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 10px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 6px;
+    }
+
+    .tarjetas-texto a {
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    .esperando {
+        height: 200px;
+    }
+
+    .esperando div {
+        margin-left: 80px;
+    }
+
+    .esperando div h3 {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    .esperando div p {
+        margin-bottom: 10px;
+        font-size: 8px;
+    }
+
+    .esperando div a {
+        padding: 10px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .esperando img {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .esperando img {
+        width: 190px;
+        height: 190px;
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width:392px) {
+    .bannershop p {
+        width: 350px;
+
+    }
+
+    .tarjetas {
+        margin: 40px;
+        padding: 20px;
+        width: 300px;
+
+
+    }
+
+    .tarjetas img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        margin-right: 10px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 10px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 6px;
+    }
+
+    .tarjetas-texto a {
+        padding: 7px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .bannershop h1 {
+        font-size: 40px;
+        width: 120px;
+    }
+
+    .bannershop p {
+        width: 300px;
+
+    }
+
+    .tarjetas {
+        background-color: $color-secundario;
+        margin: 50px;
+        padding: 30px;
+        width: 300px;
+
+
+    }
+
+    .tarjetas img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        margin-right: 5px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 20px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 8px;
+    }
+
+    .tarjetas-texto a {
+        padding: 6px;
+    }
+
+    .esperando img {
+        width: 180px;
+        height: 180px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .esperando div a {
+        padding: 6px;
+        width: 100px;
+        font-size: 10px;
+    }
+}
+
+/* SERVICIOS */
+@media screen and (max-width:611px) {
+    .banner-servicios h1 {
+        font-size: 50px;
+        width: 200px;
+    }
+
+    .banner-servicios p {
+        font-size: 20px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:505px) {
+    .banner-servicios h1 {
+        font-size: 40px;
+        width: 180px;
+    }
+
+    .banner-servicios p {
+        font-size: 15px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .banner-servicios h1 {
+        font-size: 30px;
+        width: 130px;
+    }
+
+    .banner-servicios p {
+        font-size: 10px;
+        width: 300px;
+    }
+    .tarjetas-servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px;
+    }
+}
+
+/* NOSOTRAS */
+@media screen and (max-width:1003px) {
+    .historia {
+        width: 300pxpx;
+    }
+
+    .historia-texto h2 {
+        font-size: 23px;
+
+
+    }
+
+    .historia-texto p {
+        font-size: 14px;
+    }
+
+    .historia img {
+        width: 300px;
+        height: 400px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .historia {
+        background-color: $color-secundario;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 100px;
+    }
+}
+
+@media screen and (max-width:609px) {
+    .banner-nosotros h1 {
+        font-size: 60px;
+        width: 230px;
+        margin: 20px;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .banner-nosotros p {
+        width: 400px;
+        padding: 20px;
+        text-align: center;
+        font-family: 20px;
+    }
+
+}
+
+@media screen and (max-width:641px) {
+    .historia img {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:506px) {
+    .historia img {
+        width: 200px;
+        height: 300px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:409px) {
+    .banner-nosotros h1 {
+        font-size: 40px;
+        width: 160px;
+    }
+
+    .banner-nosotros p {
+        width: 350px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:402px) {
+    .historia img {
+        width: 150px;
+        height: 210px;
+    }
+    .historia{
+        margin:10px
+    }
+}
+
+/* CONTACTO */
+@media screen and (max-width:1254px) {
+
+    
+    .manicuria-contacto img {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:995px) {
+    .formulario {
+        margin: 100px;
+        background-color: $color-principal;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .manicuria-contacto img {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .manicuria-contacto img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .banner-contacto h1 {
+        font-size: 60px;
+        width: 350px;
+
+    }
+
+    .banner-contacto p {
+        width: 400px;
+
+    }
+}
+
+@media screen and (max-width:400px) {
+    .banner-contacto h1 {
+        font-size: 30px;
+        width: 190px;
+
+    }
+
+    .banner-contacto p {
+        width: 300px;
+        font-size: 15px;
+
+    }
+
+    .formulario {
+        margin: 50px;
+    }
+
+    .manicuria-contacto img {
+        width: 275px;
+        height: 150px;
+    }
+} 

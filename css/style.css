@@ -1,0 +1,1104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/texturadefondo.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* NAV */
+.container-fluid {
+    background-color: #c4909c;
+    width: 100%;
+    color: white;
+    position: fixed;
+    padding-top: 80px;
+    z-index: 1;
+}
+
+.navbar-logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+/* MAIN */
+.bienvenidos {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/bannerindex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.bienvenidos h1 {
+    color: #c4909c;
+    background-color: white;
+    font-size: 80px;
+    width: 450px;
+    margin: 20px;
+}
+
+.bienvenidos p {
+    color: #c4909c;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.tusunas {
+    background-color: #f4eede;
+    color: #c4909c;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tusunas h2 {
+    font-size: 50px;
+
+}
+
+.tusunas p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+
+}
+
+.tusunas a {
+    text-decoration: none;
+    background-color: #c4909c;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.tusunas a:hover {
+    background-color: white;
+    color: #c4909c;
+
+}
+
+.trabajo-grid {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    gap: 15px;
+
+}
+
+.trabajo-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ubicacion {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 50px 0;
+    margin: 40px;
+    align-items: center;
+}
+
+.ubicacion div h2 {
+    color: #c4909c;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.ubicacion iframe {
+    height: 300px;
+
+}
+
+/* FOOTER */
+footer {
+    background-color: #c4909c;
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.redes {
+    display: flex;
+
+}
+
+.redes h3 {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* SHOP */
+.bannershop {
+    background-image: url(../img/bannershop.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bannershop h1 {
+    color: #c4909c;
+    background-color: white;
+    font-size: 80px;
+    width: 190px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bannershop p {
+    color: #c4909c;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjetas {
+    background-color: #f4eede;
+    margin: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
+    -webkit-box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
+    -moz-box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
+
+}
+
+.tarjetas img {
+    width: 250px;
+    height: 250px;
+}
+
+.tarjetas-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+}
+
+.tarjetas-texto h3 {
+    font-size: 50px;
+}
+
+.tarjetas-texto a {
+    text-decoration: none;
+    background-color: #EB4B98;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+.esperando {
+    background-color: white;
+    height: 350px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.esperando div {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.esperando div h3 {
+
+    color: #EB4B98;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.esperando div p {
+    margin-bottom: 20px;
+}
+
+.esperando div a {
+    text-decoration: none;
+    color: white;
+    background-color: #EB4B98;
+    padding: 10px;
+    width: 160px;
+}
+
+.esperando img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: 70px;
+}
+
+/* SERVICIOS */
+.banner-servicios {
+    background-image: url(../img/banner-servicios.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.banner-servicios h1 {
+    color: #c4909c;
+    background-color: white;
+    font-size: 80px;
+    width: 320px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.banner-servicios p {
+    color: #c4909c;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjetas-servicios {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    color: #c4909c;
+}
+
+.btn-primary {
+    background-color: #c4909c;
+    border-color: #EB4B98;
+}
+
+.btn-primary:hover {
+    background-color: #EB4B98;
+    border-color: #c4909c;
+}
+
+.card:hover {
+    background-color: #c4909c;
+    color: antiquewhite;
+    margin-top: 30px;
+}
+
+.h1 {
+    color: #c4909c;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: white;
+}
+
+/* NOSOTROS */
+.banner-nosotros {
+    background-image: url(../img/bannernosotros.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-nosotros h1 {
+    color: #c4909c;
+    background-color: white;
+    font-size: 80px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-nosotros p {
+    color: #c4909c;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.historia {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    justify-content: space-around;
+    margin: 100px;
+
+}
+
+.historia-texto h2 {
+    font-size: 40px;
+    color: #c4909c;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.historia-texto p {
+    font-size: 15px;
+}
+
+.historia img {
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+/* CONTACTO */
+.banner-contacto {
+    background-image: url(../img/bannercontacto.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-contacto h1 {
+    color: #c4909c;
+    background-color: white;
+    font-size: 80px;
+    width: 480px;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-contacto p {
+    color: #c4909c;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario {
+    margin: 100px;
+    background-color: #c4909c;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+.formulario-texto {
+    color: white;
+    padding: 10px;
+}
+
+.manicuria-contacto img {
+    width: 800px;
+    height: 500px;
+}
+
+.redes h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* MEDIA SQUARE */
+
+/* INDEX */
+@media screen and (max-width:668px) {
+    .ubicacion div h2 {
+        font-size: 20px;
+    }
+
+    .ubicacion p {
+        font-size: 10px;
+    }
+
+    .ubicacion iframe {
+        width: 250px;
+    }
+
+    .ubicacion div {
+        padding: 10px;
+    }
+
+    .bienvenidos h1 {
+        font-size: 70px;
+        width: 400px;
+        margin: 20px;
+    }
+
+    .bienvenidos p {
+        width: 500px;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .tusunas h2 {
+        font-size: 40px;
+
+    }
+}
+
+@media screen and (max-width:517px) {
+    .bienvenidos h1 {
+        font-size: 50px;
+        width: 300px;
+        margin: 20px;
+    }
+
+    .bienvenidos p {
+        width: 400px;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .tusunas h2 {
+        font-size: 30px;
+    }
+
+    .tusunas p {
+        font-size: 10px;
+    }
+
+    .tusunas a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .ubicacion iframe {
+        width: 150px;
+    }
+
+    .redes h3 {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:407px) {
+    .bienvenidos h1 {
+        font-size: 40px;
+        width: 230px;
+        margin: 20px;
+    }
+
+    .bienvenidos p {
+        width: 300px;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .tusunas h2 {
+        font-size: 20px;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicios {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 60px;
+    }
+}
+
+/* SHOP */
+@media screen and (max-width:727px) {
+    .bannershop h1 {
+        font-size: 70px;
+        width: 170px;
+    }
+
+    .bannershop p {
+        width: 500px;
+
+    }
+
+    .tarjetas img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 30px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 10px;
+    }
+
+    .tarjetas-texto a {
+        text-decoration: none;
+        background-color: #EB4B98;
+        color: antiquewhite;
+        padding: 10px;
+    }
+
+    .esperando {
+        height: 300px;
+
+    }
+
+    .esperando div {
+        margin-left: 80px;
+    }
+
+    .esperando div h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .esperando div p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .esperando div a {
+        padding: 10px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .esperando img {
+        width: 400px;
+        height: 400px;
+        bottom: 70px;
+    }
+}
+
+@media screen and (max-width:571px) {
+    .bannershop h1 {
+        font-size: 50px;
+        width: 120px;
+    }
+
+    .bannershop p {
+        width: 400px;
+
+    }
+
+    .tarjetas img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        margin-right: 10px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 20px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 8px;
+    }
+
+    .tarjetas-texto a {
+        padding: 10px;
+    }
+
+    .esperando {
+        height: 250px;
+    }
+
+    .esperando div {
+        margin-left: 80px;
+    }
+
+    .esperando div h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .esperando div p {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .esperando div a {
+        padding: 10px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .esperando img {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width:489px) {
+    .tarjetas img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        margin-right: 10px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 10px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 6px;
+    }
+
+    .tarjetas-texto a {
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    .esperando {
+        height: 200px;
+    }
+
+    .esperando div {
+        margin-left: 80px;
+    }
+
+    .esperando div h3 {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    .esperando div p {
+        margin-bottom: 10px;
+        font-size: 8px;
+    }
+
+    .esperando div a {
+        padding: 10px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .esperando img {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .esperando img {
+        width: 190px;
+        height: 190px;
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width:392px) {
+    .bannershop p {
+        width: 350px;
+
+    }
+
+    .tarjetas {
+        margin: 40px;
+        padding: 20px;
+        width: 300px;
+
+
+    }
+
+    .tarjetas img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        margin-right: 10px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 10px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 6px;
+    }
+
+    .tarjetas-texto a {
+        padding: 7px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .bannershop h1 {
+        font-size: 40px;
+        width: 120px;
+    }
+
+    .bannershop p {
+        width: 300px;
+
+    }
+
+    .tarjetas {
+        background-color: #f4eede;
+        margin: 50px;
+        padding: 30px;
+        width: 300px;
+
+
+    }
+
+    .tarjetas img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .tarjetas-texto {
+        width: 400px;
+        margin-right: 5px;
+    }
+
+    .tarjetas-texto h3 {
+        font-size: 20px;
+    }
+
+    .tarjetas-texto p {
+        font-size: 8px;
+    }
+
+    .tarjetas-texto a {
+        padding: 6px;
+    }
+
+    .esperando img {
+        width: 180px;
+        height: 180px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .esperando div a {
+        padding: 6px;
+        width: 100px;
+        font-size: 10px;
+    }
+}
+
+/* SERVICIOS */
+@media screen and (max-width:611px) {
+    .banner-servicios h1 {
+        font-size: 50px;
+        width: 200px;
+    }
+
+    .banner-servicios p {
+        font-size: 20px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:505px) {
+    .banner-servicios h1 {
+        font-size: 40px;
+        width: 180px;
+    }
+
+    .banner-servicios p {
+        font-size: 15px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .banner-servicios h1 {
+        font-size: 30px;
+        width: 130px;
+    }
+
+    .banner-servicios p {
+        font-size: 10px;
+        width: 300px;
+    }
+    .tarjetas-servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px;
+    }
+}
+
+/* NOSOTRAS */
+@media screen and (max-width:1003px) {
+    .historia {
+        width: 300pxpx;
+    }
+
+    .historia-texto h2 {
+        font-size: 23px;
+
+
+    }
+
+    .historia-texto p {
+        font-size: 14px;
+    }
+
+    .historia img {
+        width: 300px;
+        height: 400px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .historia {
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 100px;
+    }
+}
+
+@media screen and (max-width:609px) {
+    .banner-nosotros h1 {
+        font-size: 60px;
+        width: 230px;
+        margin: 20px;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .banner-nosotros p {
+        width: 400px;
+        padding: 20px;
+        text-align: center;
+        font-family: 20px;
+    }
+
+}
+
+@media screen and (max-width:641px) {
+    .historia img {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:506px) {
+    .historia img {
+        width: 200px;
+        height: 300px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:409px) {
+    .banner-nosotros h1 {
+        font-size: 40px;
+        width: 160px;
+    }
+
+    .banner-nosotros p {
+        width: 350px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:402px) {
+    .historia img {
+        width: 150px;
+        height: 210px;
+    }
+    .historia{
+        margin:10px
+    }
+}
+
+/* CONTACTO */
+@media screen and (max-width:1254px) {
+
+    
+    .manicuria-contacto img {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:995px) {
+    .formulario {
+        margin: 100px;
+        background-color: #c4909c;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .manicuria-contacto img {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .manicuria-contacto img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .banner-contacto h1 {
+        font-size: 60px;
+        width: 350px;
+
+    }
+
+    .banner-contacto p {
+        width: 400px;
+
+    }
+}
+
+@media screen and (max-width:400px) {
+    .banner-contacto h1 {
+        font-size: 30px;
+        width: 190px;
+
+    }
+
+    .banner-contacto p {
+        width: 300px;
+        font-size: 15px;
+
+    }
+
+    .formulario {
+        margin: 50px;
+    }
+
+    .manicuria-contacto img {
+        width: 275px;
+        height: 150px;
+    }
+}

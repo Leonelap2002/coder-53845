@@ -1,0 +1,416 @@
+.bienvenidos {
+    width: 100%;
+    height: nth($font-size ,4);
+    background-image: url(../img/bannerindex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    @extend %flex-center;
+    
+
+    margin-top: nth($font-size ,1 );
+    align-items: center;
+    
+
+    h1 {
+        color: $color-principal;
+        background-color: $color-secundario;
+        font-size: nth($font-size ,2 );
+        width: nth($font-size ,3 );
+        margin:nth($font-size ,1 );
+    }
+
+    p {
+        color: $color-principal;
+        background-color: $color-secundario;
+        width: 600px;
+        padding: 20px;
+        text-align: center;
+        transition: 2s;
+    }
+}
+.bienvenidos p:hover{
+    transform: scale(2);
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.tusunas {
+    background-color: $color-secundario;
+    color: $color-principal;
+    margin: 20px;
+    padding: 20px;
+    @include flex( flex,center, column);
+    align-items: center;
+
+    h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+        color: $color-terciario;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: $color-principal;
+        color: $color-secundario;
+        font-size: 30px;
+        padding: 10px;
+        transition: 2s;
+
+        &:hover {
+            background-color: #EB4B98;
+            color: $color-principal;
+            transform: rotate(360deg);
+            }
+        }
+    }
+
+.trabajo-grid {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    gap: 15px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.ubicacion{
+    background-color: $color-secundario;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 50px 0;
+    margin: 40px;
+    align-items: center;
+
+    h2{
+        color: $color-principal;
+    margin-bottom: 10px;
+    font-size: 40px;
+    }
+    iframe{
+        height: 300px;
+    }
+}
+
+
+
+.bannershop {
+    background-image: url(../img/bannershop.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h1 {
+        color: $color-principal;
+        background-color: white;
+        font-size: 80px;
+        width: 190px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    p {
+        color: $color-principal;
+        background-color: $color-secundario;
+        width: 600px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.tarjetas {
+    border-radius: 20px;
+    background-color: $color-secundario;
+    margin: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
+    -webkit-box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
+    -moz-box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.tarjetas-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+
+    h3 {
+        font-size: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        background-color:  #EB4B98;
+        color: $color-secundario;
+        padding: 10px;
+        transition: 2s;
+    }
+}
+.tarjetas-texto a:hover{
+    transform: rotate(360deg);
+    }
+
+.banner-servicios {
+    background-image: url(../img/banner-servicios.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+
+    h1 {
+        color: $color-principal;
+        background-color: $color-secundario;
+        font-size: 80px;
+        width: 320px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    p {
+        color: $color-principal;
+        background-color: $color-secundario;
+        width: 600px;
+        padding: 20px;
+        text-align: center;
+
+    }
+}
+
+.tarjetas-servicios {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    color: $color-principal;
+}
+
+.btn-primary {
+    background-color:#c4909c;
+    border-color:  #EB4B98;
+
+    &:hover {
+        background-color:  #EB4B98;
+        border-color: $color-principal;
+    }
+}
+
+.card:hover {
+    background-color: $color-principal;
+    color: $color-secundario;
+    margin-top: 30px;
+}
+
+.h1 {
+    color: $color-principal;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: $color-secundario;
+}
+
+.banner-nosotros {
+    background-image: url(../img/bannernosotros.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h1 {
+        color:$color-principal;
+        background-color: $color-secundario;
+        font-size: 80px;
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    p {
+        color: $color-principal;
+        background-color:$color-secundario;
+        width: 600px;
+        padding: 20px;
+        text-align: center;
+        transition: 2s;
+    }
+}
+.banner-nosotros p:hover{
+    transform: scale(360px);
+}
+
+.historia {
+    border-radius: 20px;
+    background-color:$color-secundario;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    justify-content: space-around;
+    margin: 100px;
+
+    img {
+        width: 300px;
+        height: 400px;
+        margin-left: 20px;
+    }
+
+}
+
+.historia-texto h2 {
+    font-size: 40px;
+    color: $color-principal;
+    font-family: 'Times New Roman', Times, serif;
+
+    p {
+        font-size: 15px;
+    }
+}
+
+.banner-contacto {
+    background-image: url(../img/bannercontacto.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h1 {
+        color: $color-principal;
+        background-color: $color-secundario;
+        font-size: 80px;
+        width: 480px;
+        margin: 20px;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    p {
+        color: $color-principal;
+        background-color: $color-secundario;
+        width: 600px;
+        padding: 20px;
+        text-align: center;
+        transition: 2s;
+    }
+}
+.banner-contacto p:hover{
+    transform: scale(2);
+}
+.formulario {
+    border-radius: 20px;
+    margin: 100px;
+    background-color: map-get($formulario, fondo-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+.formulario-texto {
+    color: $color-secundario;
+    padding: 10px;
+}
+.manicuria-contacto img {
+    border-radius: 20px;
+    width: 800px;
+    height: 500px;
+}
+.redes h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.esperando {
+    background-color: $color-secundario;
+    height: 350px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h3 {
+            color:  #EB4B98;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color-secundario;
+            background-color: #EB4B98;
+            padding: 10px;
+            width: 160px;
+        }
+    }
+
+    img {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        bottom: 70px;
+    }
+}
