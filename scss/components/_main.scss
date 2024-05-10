@@ -28,18 +28,18 @@
         padding: 20px;
         text-align: center;
         transition: 2s;
+        &:hover{transform: scale(2)
+
+        }
     }
 }
-.bienvenidos p:hover{
-    transform: scale(2);
-}
+
 
 .servicios {
     display: flex;
     justify-content: space-around;
     margin: 60px;
 }
-
 .tusunas {
     background-color: $color-secundario;
     color: $color-principal;
@@ -50,8 +50,11 @@
 
     h2 {
         font-size: 50px;
+        animation: slidein 3s ease-in-out;
+        
     }
 
+  
     p {
         font-size: 20px;
         text-align: center;
@@ -140,6 +143,11 @@
         width: 600px;
         padding: 20px;
         text-align: center;
+        transition: 2s;
+        &:hover{transform: scale(2)
+
+        }
+
     }
 }
 

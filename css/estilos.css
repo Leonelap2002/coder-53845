@@ -33,7 +33,7 @@ body {
 .bienvenidos {
   width: 100%;
   height: 500px;
-  background-image: url(../img/bannerindex.jpg);
+  background-image: linear-gradient(rgb(253, 253, 253), rgba(252, 227, 240, 0.103)), url(../img/bannerindex.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,6 +69,7 @@ body {
   justify-content: space-around;
   margin: 60px; }
 
+
 .tusunas {
   background-color: white;
   color: #c4909c;
@@ -80,7 +81,9 @@ body {
   align-items: center;}
   
   .tusunas h2 {
-    font-size: 50px; }
+    font-size: 50px; 
+  }
+
   .tusunas p {
     font-size: 20px;
     text-align: center;
@@ -129,7 +132,7 @@ body {
     height: 300px; }
 
 .bannershop {
-  background-image: url(../img/bannershop.jpg);
+  background-image:linear-gradient(rgb(253, 253, 253), rgba(252, 227, 240, 0.103)), url(../img/bannershop.jpg);
   width: 100%;
   height: 500px;
   background-position: center;
@@ -154,7 +157,11 @@ body {
     background-color: white;
     width: 600px;
     padding: 20px;
-    text-align: center; }
+    text-align: center; 
+    transition: 2s;}
+  .bannershop p:hover{
+      transform: scale(2);
+  }
 
 .tarjetas {
   border-radius: 20px;
@@ -163,8 +170,11 @@ body {
   padding: 50px;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
-  box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
+  justify-content: space-around; }
+  .tarjetas:hover{
+    transition: 2s;
+    transform: scale(1.1);
+    box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
   -webkit-box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75);
   -moz-box-shadow: -1px 10px 44px -1px rgba(84, 83, 83, 0.75); }
   .tarjetas img {
@@ -190,7 +200,7 @@ body {
     }
 
 .banner-servicios {
-  background-image: url(../img/banner-servicios.jpg);
+  background-image:linear-gradient(rgb(253, 253, 253), rgba(252, 227, 240, 0.103)), url(../img/banner-servicios.jpg);
   width: 100%;
   height: 500px;
   background-position: center;
@@ -216,7 +226,10 @@ body {
     background-color: white;
     width: 600px;
     padding: 20px;
-    text-align: center; }
+    text-align: center; 
+    transition: 2s;}
+  .banner-servicios p:hover{
+      transform: scale(2);}
 
 .tarjetas-servicios {
   display: flex;
@@ -244,7 +257,7 @@ body {
   background-color: white; }
 
 .banner-nosotros {
-  background-image: url(../img/bannernosotros.jpg);
+  background-image:linear-gradient(rgb(253, 253, 253), rgba(252, 227, 240, 0.103)), url(../img/bannernosotros.jpg);
   width: 100%;
   height: 500px;
   background-position: center;
@@ -270,7 +283,10 @@ body {
     background-color: white;
     width: 600px;
     padding: 20px;
-    text-align: center; }
+    text-align: center; 
+    transition: 2s;}
+  .banner-nosotros p:hover{
+      transform: scale(2);}
 
 .historia {
   border-radius: 20px;
@@ -293,7 +309,7 @@ body {
     font-size: 15px; }
 
 .banner-contacto {
-  background-image: url(../img/bannercontacto.jpg);
+  background-image:linear-gradient(rgb(253, 253, 253), rgba(252, 227, 240, 0.103)), url(../img/bannercontacto.jpg);
   width: 100%;
   height: 500px;
   background-position: center;
